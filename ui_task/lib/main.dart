@@ -14,6 +14,8 @@ import 'package:ui_task/RestaurantPage/restaurantPage1.dart';
 import 'package:ui_task/RestaurantPage/restaurantPage2.dart';
 
 void main() {
+  String deep = "deep";
+  String vishal = "Vishal";
   runApp(const MyApp());
 }
 
@@ -24,7 +26,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-
       home: ForgatePassword2(),
     );
   }
